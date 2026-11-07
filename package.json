@@ -1,0 +1,13 @@
+{
+  "name": "abror-live",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Consent-based one-to-one live video room",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "engines": { "node": ">=18" }
+}
